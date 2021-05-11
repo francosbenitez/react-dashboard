@@ -1,11 +1,18 @@
 /*import logo from './logo.svg';*/
 import './App.scss';
+import Navbar from '../src/components/Navbar'
+import Sidebar from '../src/components/Sidebar'
+import { BrowserRouter as Router, Route} from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
+    <Router>
+      <Navbar />
+      <div className="flex"></div>
+        <Sidebar />
+        <div className="content">
+      </div>
+    </Router>
   );
 }
 
