@@ -1,17 +1,17 @@
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const Sidebar = () => {
     return (
-        <div className="sidebar">
+        <div className="sidebar bg-light">
             <ul>
                 <li>
-                    <Link to="/">Inicio</Link>
+                    <NavLink to="/" className="text-dark rounded py-2 w-100 d-inline-block px-3" exact activeClassName="active">Inicio</NavLink>
                 </li>
                 <li>
-                    <Link to="/sales">Ventas</Link>
+                    <NavLink to="/sales" className="text-dark rounded py-2 w-100 d-inline-block px-3" exact activeClassName="active">Ventas</NavLink>
                 </li>
                 <li>
-                    <Link to="/clients" className="btn btn-primary">Clientes</Link>
+                    <NavLink to="/clients" className="text-dark rounded py-2 w-100 d-inline-block px-3" exact activeClassName="active">Clientes</NavLink>
                 </li>
             </ul>
         </div>
