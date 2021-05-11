@@ -12,6 +12,10 @@ body {
 $light: #ffffff;
 $gray: #c4ccde;
 
+.flex {
+  display: flex;
+}
+
 .navbar {
   background-color: $light;
   padding: 1rem 2rem;
@@ -27,6 +31,9 @@ $gray: #c4ccde;
     padding: 1rem 2rem;
     li {
       margin-bottom: 1rem;
+      a {
+        text-decoration: none;
+      }
     }
   }
 }
