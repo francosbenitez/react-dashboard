@@ -1,0 +1,2 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap);*{margin:0;padding:0}body{font-family:"Inter",sans-serif}.flex{display:flex}.navbar{background-color:#fff;padding:1rem 2rem;border-bottom:1px solid #e7e9eb}.sidebar{width:14rem;height:calc(100vh - 52px);border-right:1px solid #e7e9eb}.sidebar ul{list-style:none;padding:1rem 2rem}.sidebar ul li{margin-bottom:1rem}.sidebar ul li a{text-decoration:none}.sidebar ul li a.active{background-color:#e7e9eb}
+/*# sourceMappingURL=main.412e960e.chunk.css.map */
